@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>simpletag</short-name>
+  <uri>/WEB-INF/tlds/simpleTag</uri>
+    <tag>
+        <name>loginCliente</name>
+        <tag-class>projjsp.LoginClienteTag</tag-class>
+        <body-content>empty</body-content>
+        
+        <attribute>
+            <name>login</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>senha</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+
+    </tag>
+    
+     <tag>
+        <name>cadastrarCliente</name>
+        <tag-class>projjsp.CadastrarClienteTag</tag-class>
+        <body-content>empty</body-content>
+        
+        <attribute>
+            <name>id</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>nome</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>endereco</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>telefone</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>email</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>senha</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+
+    </tag>
+    
+    <tag>
+        <name>excluirCliente</name>
+        <tag-class>projjsp.ExcluirClienteTag</tag-class>
+        <body-content>empty</body-content>
+        
+        <attribute>
+            <name>id</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+    </tag>
+    
+    <tag>
+        <name>excluirProduto</name>
+        <tag-class>projjsp.ExcluirProdutoTag</tag-class>
+        <body-content>empty</body-content>
+        
+        <attribute>
+            <name>cod</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute>   
+    </tag>
+    
+     <tag>
+        <name>cadastrarAdm</name>
+        <tag-class>projjsp.CadastrarAdmTag</tag-class>
+        <body-content>empty</body-content>
+        
+        <attribute>
+            <name>login</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute>  
+        
+        <attribute>
+            <name>senha</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute>  
+    </tag>
+    
+    <tag>
+        <name>cadastrarAdm</name>
+        <tag-class>projjsp.CadastrarAdmTag</tag-class>
+        <body-content>empty</body-content>
+        
+        <attribute>
+            <name>login</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute>  
+        
+        <attribute>
+            <name>senha</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute>  
+    </tag>
+    
+    <tag>
+        <name>cadastrarProduto</name>
+        <tag-class>projjsp.CadastrarProdutoTag</tag-class>
+        <body-content>empty</body-content>
+        
+        <attribute>
+            <name>cod</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute>   
+        
+        <attribute>
+            <name>nome</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>imagem</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>preco</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+        
+        <attribute>
+            <name>estoque</name>
+            <rtexprvalue>true</rtexprvalue>           
+        </attribute> 
+    </tag>
+    
+    
+
+</taglib>
